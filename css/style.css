@@ -1,0 +1,95 @@
+
+body {
+    font-family: "PT Sans Caption", sans-serif;
+}
+body{
+   
+        background-color: rgb(64, 43, 16);
+    
+}
+section h1{ 
+
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        isolation: isolate;
+    
+}
+section h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+section h1:hover::before {
+    height: 50%;
+  }
+  .test {
+    border-color: rgb(131, 122, 107);
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: grey;
+}
+
+.test h2{
+    background-image: linear-gradient(to right, rgb(50, 139, 78), rgb(152, 145, 61)) ;
+   color: transparent;
+   
+}
+.test h2 {
+   
+ 
+    background-clip: text;
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+   
+   }
+
+.button-c:hover{
+    background-color: hsl(13, 64%, 42%)!important;
+}
+
+.wite{
+    color: rgb(213, 208, 201);
+}
+
+
+.form-control:focus {
+    color: rgb(219, 215, 209);
+    background-color: rgb(25, 27, 28);
+    border-color: rgb(152, 105, 29);
+  
+    box-shadow: rgba(153, 96, 1, 0.33) 0px 0px 0px 0.25rem;
+   
+}
+.form-control {
+    color: rgb(219, 215, 209);
+    background-color:rgb(25, 27, 28) ;
+    border-color: rgb(63, 68, 71);
+}
+.table>:not(caption)>*>*{
+    background-color: #191b1c;
+    color:rgb(213, 208, 201) ;
+    
+    border-color:rgb(63, 68, 71) ;
+}
+
+
+.icon{
+    color: white;
+}
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+a{
+  text-decoration: none;
+  
+}
